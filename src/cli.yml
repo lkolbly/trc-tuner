@@ -1,0 +1,27 @@
+name: trc-tuner
+version: "0.1.0"
+author: Lane Kolbly <lane@rscheme.org>
+about: Tunes your custom TRC values for capacitive loads
+args:
+    - device:
+        short: d
+        long: device
+        help: The name of the device to tune for
+        takes_value: true
+    - bandwidth:
+        short: r
+        long: bandwidth
+        help: The gain bandwidth to use
+        takes_value: true
+        required: true
+    - range:
+        short: i
+        long: range
+        help: The current range
+        takes_value: true
+    - capacitance:
+        short: c
+        long: capacitance
+        help: foobar
+        takes_value: true
+        required: true

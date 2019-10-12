@@ -1,0 +1,12 @@
+loop_delay = 1e-6
+max_pole_zero_ratio = 8
+offset_resistance = 0.33
+
+[ranges]
+1u = 499e3
+10u = 49.9e3
+100u = 5542.82
+1m = 552.82
+10m = 53.82
+100m = 4.99
+3 = 0.0
